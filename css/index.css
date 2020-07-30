@@ -1,0 +1,53 @@
+@font-face {
+  font-family: LibreBaskerville;
+  src: url(LibreBaskerville-Regular.tff);
+}
+
+body {
+  margin: 0;
+  background-color: #CCCCCC;
+  font-family: LibreBaskerville;
+}
+
+.main-color {
+  color: #277cc5;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+  background-color: white;
+}
+
+.wrap {
+  margin: 0 10%;
+}
+
+.header-img {
+  width: 100%;
+}
+
+.attorneys:hover .dropdown-menu {
+  display: block;
+  margin: 0;
+}
+
+.dropdown-menu:hover {
+  display: block;
+  margin: 0;
+}
+
+.nav-item {
+  height: 100%;
+  padding: 5px 15px;
+}
+
+.navbar-border {
+  border-top:1px solid #277cc5;
+  border-bottom:1px solid #277cc5;
+  margin:5px;
+}
+
+.border-right {
+  border-right:1px solid #277cc5;
+}
