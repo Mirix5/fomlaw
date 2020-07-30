@@ -9,6 +9,15 @@ body {
   font-family: LibreBaskerville;
 }
 
+.background-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  margin: 0;
+  z-index: -100;
+}
+
 .main-color {
   color: #277cc5;
 }
@@ -16,15 +25,11 @@ body {
 .logo {
   float: left;
   padding: 10px 0;
-  background-color: white;
+  background-color: rgba(255,255,255,1);
 }
 
 .wrap {
   margin: 0 10%;
-}
-
-.header-img {
-  width: 100%;
 }
 
 .attorneys:hover .dropdown-menu {
@@ -45,9 +50,12 @@ body {
 .navbar-border {
   border-top:1px solid #277cc5;
   border-bottom:1px solid #277cc5;
-  margin:5px;
 }
 
 .border-right {
   border-right:1px solid #277cc5;
+}
+
+.header {
+  background-color: rgba(255,255,255,1);
 }
