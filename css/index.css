@@ -1,13 +1,13 @@
 @font-face {
-  font-family: LibreBaskerville;
-  src: url(LibreBaskerville-Regular.tff);
+  font-family: 'CrimsonText';
+  src: local('/fonts/CrimsonText-Regular.ttf') format('truetype');
+  src: url('/fonts/CrimsonText-Regular.ttf') format('truetype');
 }
 
 body {
   margin: 0;
   background-color: #CCCCCC;
-  font-family: LibreBaskerville;
-  overflow-y: hidden;
+  font-family: 'CrimsonText', serif !important;
 }
 
 .background-image {
@@ -76,4 +76,21 @@ body {
 
 .spacer {
   margin: 7px;
+}
+
+.map {
+  width: 100%;
+  display: flex;
+  margin-bottom: 1rem;
+  justify-content: right;
+}
+
+.map iframe {
+  justify-self: right;
+  min-height: 600px;
+}
+
+.directions {
+  width: 40%;
+  justify-self: left;
 }
