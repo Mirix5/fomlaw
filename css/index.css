@@ -106,6 +106,14 @@ body {
   font-weight: bold;
 }
 
+.parking {
+  display: flex;
+}
+
+.parking div {
+  text-align: center;
+}
+
 .profile-wrapper {
   display: flex;
 }
@@ -120,4 +128,8 @@ body {
 
 .profile-description {
   margin: 0 10px;
+}
+
+.contact-wrapper {
+  text-align: center;
 }
