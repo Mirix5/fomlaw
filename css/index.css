@@ -4,6 +4,13 @@
   src: url('/fonts/CrimsonText-Regular.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'CrimsonText';
+  src: local('/fonts/CrimsonText-Bold.ttf') format('truetype');
+  src: url('/fonts/CrimsonText-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
 body {
   margin: 0;
   background-color: #CCCCCC;
@@ -93,4 +100,24 @@ body {
 .directions {
   width: 40%;
   justify-self: left;
+}
+
+.directions h6 {
+  font-weight: bold;
+}
+
+.profile-wrapper {
+  display: flex;
+}
+
+.profile-picture {
+  margin: 0 10px;
+}
+
+.profile-picture img {
+  width: 300px;
+}
+
+.profile-description {
+  margin: 0 10px;
 }
