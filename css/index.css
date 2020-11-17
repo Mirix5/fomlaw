@@ -130,6 +130,10 @@ body {
   margin: 0 10px;
 }
 
+.profile-description p{
+  text-align: justify;
+}
+
 .contact-wrapper {
   text-align: center;
 }
