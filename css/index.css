@@ -126,6 +126,15 @@ body {
   width: 300px;
 }
 
+.profile-info {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.profile-info p {
+  margin: 0;
+}
+
 .profile-description {
   margin: 0 10px;
 }
