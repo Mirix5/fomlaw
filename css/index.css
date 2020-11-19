@@ -1,20 +1,7 @@
-@font-face {
-  font-family: 'CrimsonText';
-  src: local('/fonts/CrimsonText-Regular.ttf') format('truetype');
-  src: url('/fonts/CrimsonText-Regular.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'CrimsonText';
-  src: local('/fonts/CrimsonText-Bold.ttf') format('truetype');
-  src: url('/fonts/CrimsonText-Bold.ttf') format('truetype');
-  font-weight: bold;
-}
-
 body {
   margin: 0;
   background-color: #CCCCCC;
-  font-family: 'CrimsonText', serif !important;
+  font-family: 'Lato', sans-serif;
 }
 
 .background-image {
@@ -94,6 +81,14 @@ body {
   background-image: url("https://www.transparenttextures.com/patterns/shattered-dark.png");
 }
 
+.about, .contact {
+  font-size: 20px;
+}
+
+.contact {
+  text-align: center;
+}
+
 .content {
   color: #343a40;
   background-color:#f8f9fa;
@@ -104,6 +99,7 @@ body {
 
 .content h2{
   color: #277cc5;
+  font-family: 'Slabo 27px', serif;
 }
 
 .spacer {
@@ -139,6 +135,15 @@ body {
   text-align: center;
 }
 
+.profile-name {
+  text-align: center;
+  width: 300px;
+}
+
+.george {
+  font-size: 1.9rem !important;
+}
+
 .profile-wrapper {
   display: flex;
 }
@@ -170,4 +175,10 @@ body {
 
 .contact-wrapper {
   text-align: center;
+  color: #f8f9fa;
+  padding: 15px 0px;
+  width: auto;
+  background-color: #c3f2fa;
+  background-image: url("https://www.transparenttextures.com/patterns/diagmonds.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
