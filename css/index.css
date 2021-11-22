@@ -1,5 +1,8 @@
 body {
   margin: 0;
+  padding: 0;
+  top:0;
+  bottom: 0;
   background-color: #CCCCCC;
   font-family: 'Lato', sans-serif;
 }
@@ -31,11 +34,14 @@ body {
   color: #f8f9fa;
   text-align: center;
   padding: 20px 0px;
-  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 .wrap {
   margin: 0 18%;
+}
+
+.content-wrapper {
+  /* margin-bottom: 200px; */
 }
 
 .attorneys:hover .dropdown-menu {
@@ -104,7 +110,6 @@ body {
 .content {
   color: #343a40;
   background-color:#f8f9fa;
-  border-bottom:1px solid #277cc5;
   padding: 5px 20px;
   min-height: 100%;
 }
@@ -195,6 +200,10 @@ body {
   /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
-.footer {
+footer {
   background-color: #f8f9fa !important;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
