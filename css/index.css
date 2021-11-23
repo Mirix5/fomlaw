@@ -163,12 +163,25 @@ body {
 }
 
 .profile-wrapper {
-  display: flex;
+  /* display: flex; */
 }
 
 .profile-picture {
-  margin: 0 11px;
+  float: left;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 20px;
+  background: linear-gradient(145deg, #fefefe, #d5d5d5);
+  box-shadow:  5px 5px 7px #cecece,
+               -5px -5px 7px #ffffff;
 }
+
+
+/* .attorney-photo {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+} */
 
 .profile-picture img {
   width: 300px;
