@@ -86,6 +86,7 @@ body {
 }
 
 .header {
+  position: relative;
   background-color:#93cbf0;
   background-image: url("../images/skyline.jpg");
   background-size: cover;
@@ -94,9 +95,12 @@ body {
 }
 
 .img-copyright{
+  position: absolute;
   font-size: 0.7em;
   color: white;
   padding: 0 4px;
+  bottom: 4px;
+  right: 2px;
 }
 
 .about, .contact {
