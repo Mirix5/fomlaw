@@ -1,0 +1,15 @@
+BEGIN:VCARD
+VERSION:2.1
+N:Worth;Thomas;B.
+FN:Thomas B. Worth
+ORG:Friedman McCubbin Law Group LLP
+TITLE:Partner
+TEL;WORK;VOICE:(415) 434-2226
+TEL;WORK;FAX:(415) 434-1937
+ADR;WORK:;;425 California Street, 25th floor;San Francisco;CA;94104;United States of America
+LABEL;WORK;ENCODING=QUOTED-PRINTABLE:425 California Street, 25th floor=0D=0ASan Francisco, CA 94104=0D=0AUnited S=
+tates of America
+URL;WORK:http://fomlaw.com/worth.htm
+EMAIL;PREF;INTERNET:tom@fomlaw.com
+REV:20120705T092229Z
+END:VCARD
