@@ -29,9 +29,37 @@ body {
   max-width: 50%;
   margin-top: 1.5%;
   margin-bottom: 10%;
+  transition: margin 700ms;
 }
 
+.logo-small {
+  display: inline;
+  text-align: center;
+  max-width: 50%;
+  margin-top: 1.5%;
+  margin-bottom: 3%;
+  /* -webkit-animation: shrink 1s; /* Chrome, Safari, Opera */
+  /* animation: shrink 1s;  */
+}
+
+/* Chrome, Safari, Opera */
+/* @-webkit-keyframes shrink {
+  0% {margin-bottom: 10%;}
+  100% {margin-bottom: 3%;}
+} */
+/* Standard syntax */
+/* @keyframes shrink {
+  0% {margin-bottom: 10%;}
+  100% {margin-bottom: 3%;}
+} */
+
 .firm-heading {
+  color: #f8f9fa;
+  text-align: center;
+  padding: 0px 0px;
+}
+
+.firm-heading-index {
   color: #f8f9fa;
   text-align: center;
   padding: 20px 0px;
@@ -95,13 +123,17 @@ body {
   text-align: right;
 }
 
-.img-copyright{
+/* .img-copyright{
   position: absolute;
   font-size: 0.7em;
   color: white;
   padding: 0 4px;
   bottom: 4px;
   right: 2px;
+} */
+
+.img-copyright{ 
+  margin: 0;
 }
 
 .about, .contact {
@@ -209,7 +241,7 @@ body {
   text-align: justify;
 }
 
-.contact-wrapper {
+.contact-wrapper, .contact-wrapper-index {
   text-align: center;
   color: #f8f9fa;
   padding: 15px 0px;
@@ -217,6 +249,10 @@ body {
   background-color: #c3f2fa;
   background-image: url("https://www.transparenttextures.com/patterns/diagmonds.png");
   /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.contact-wrapper p {
+  margin: 0px;
 }
 
 footer {
