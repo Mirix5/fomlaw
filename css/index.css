@@ -123,13 +123,17 @@ body {
   text-align: right;
 }
 
-.img-copyright{
+/* .img-copyright{
   position: absolute;
   font-size: 0.7em;
   color: white;
   padding: 0 4px;
   bottom: 4px;
   right: 2px;
+} */
+
+.img-copyright{ 
+  margin: 0;
 }
 
 .about, .contact {
